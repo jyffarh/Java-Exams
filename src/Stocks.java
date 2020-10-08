@@ -1,0 +1,36 @@
+//creating sub class stocks
+public class Stocks{
+    private String Id;
+    private double value;
+    private int quantity;
+
+    public Stocks(String id, double value, int quantity) {
+        Id = id;
+        this.value = value;
+        this.quantity = quantity;
+    }
+
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        Id = id;
+    }
+
+    public double getValue() {
+        return value;
+    }
+
+    public void setValue(double value) {
+        this.value = value;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+}
